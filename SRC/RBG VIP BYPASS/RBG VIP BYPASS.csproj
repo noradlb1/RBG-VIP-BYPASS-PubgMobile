@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{E8EF37B6-9E25-4A54-A544-561CD59C081F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RBG VIP BYPASS</RootNamespace>
+    <AssemblyName>RBG VIP BYPASS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Class3</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\..\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Memory">
+      <HintPath>..\..\Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.Desktop.UI">
+      <HintPath>..\..\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-Module-{262D5385-7EB5-4C07-95AB-8FE9A16874C8}.cs" />
+    <Compile Include="-Module-{baa82f7d-fa88-4239-844b-66b7ec16de84}.cs" />
+    <Compile Include="BYPASS\api.cs" />
+    <Compile Include="BYPASS\Bypass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BYPASS\Bypass.Designer.cs">
+      <DependentUpon>Bypass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BYPASS\encryption.cs" />
+    <Compile Include="BYPASS\json_wrapper.cs" />
+    <Compile Include="BYPASS\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BYPASS\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BYPASS\Properties\Resources.cs" />
+    <Compile Include="BYPASS\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BYPASS\ScrnCt.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="dummy\{2042e0d5-40f6-48eb-88bf-9261f7360a45}.cs" />
+    <Compile Include="dummy_ptr\{9ccc219c-9661-4df3-85ef-24ff80c2e3ad}.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="BYPASS\Bypass.resources" />
+    <EmbeddedResource Include="BYPASS\Bypass.resx">
+      <DependentUpon>Bypass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BYPASS\Login.resources" />
+    <EmbeddedResource Include="BYPASS\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BYPASS\Properties\Resources.resources" />
+    <EmbeddedResource Include="Costura\commonmark\dll.compressed" />
+    <EmbeddedResource Include="Costura\commonmark\pdb.compressed" />
+    <EmbeddedResource Include="Costura\costura\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="Costura\discordrpc\dll.compressed" />
+    <EmbeddedResource Include="Costura\discordrpc\pdb.compressed" />
+    <EmbeddedResource Include="Costura\memory\dll.compressed" />
+    <EmbeddedResource Include="Costura\metadata" />
+    <EmbeddedResource Include="Costura\microsoft\bcl\asyncinterfaces\dll.compressed" />
+    <EmbeddedResource Include="Costura\newtonsoft\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\siticone\desktop\ui\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\buffers\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\diagnostics\diagnosticsource\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\diagnostics\eventlog\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\memory\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\net\http\formatting\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\numerics\vectors\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\runtime\compilerservices\unsafe\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\security\principal\windows\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\serviceprocess\servicecontroller\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\text\encodings\web\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\text\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\threading\tasks\extensions\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\valuetuple\dll.compressed" />
+    <EmbeddedResource Include="eGuOHuRPeW8KuFAKLi.cOTGaqGr24bEwkhrDR" />
+    <EmbeddedResource Include="RBG VIP BYPASS.g.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BYPASS\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

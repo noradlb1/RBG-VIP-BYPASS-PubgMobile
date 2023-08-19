@@ -1,0 +1,23 @@
+costura.commonmark.dll.compressed|0.1.0.0|CommonMark, Version=0.1.0.0, Culture=neutral, PublicKeyToken=001ef8810438905d|CommonMark.dll|172A00F49E8DDB413ADE56D46D10C59830CE9C69|151040
+costura.commonmark.pdb.compressed|||CommonMark.pdb|CBDF86D79FD3A9DE5CCCD41E34EC732A49DC1223|204288
+costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF33BDD62C4F82D3EF078E76F0906|4608
+costura.costura.pdb.compressed|||Costura.pdb|6C6000A5EAF8579850AB82A89BD6268776EB51AD|2608
+costura.discordrpc.dll.compressed|1.1.3.18|DiscordRPC, Version=1.1.3.18, Culture=neutral, PublicKeyToken=null|DiscordRPC.dll|501D3A253C4555319AA2379EA10172F3D4B7227E|83968
+costura.discordrpc.pdb.compressed|||DiscordRPC.pdb|1DE79644032D6895F5D0AE6A7749330C1103F8B9|27788
+costura.memory.dll.compressed|1.2.24.0|Memory, Version=1.2.24.0, Culture=neutral, PublicKeyToken=null|Memory.dll|39EC1CA65121CA182394C9357223D51AC8EE5031|47104
+costura.microsoft.bcl.asyncinterfaces.dll.compressed|6.0.0.0|Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|Microsoft.Bcl.AsyncInterfaces.dll|F36403AABB16540C93FB35245EC0B4E435628AAE|22144
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|7D0AD03FBDA1C24F883116B940717E596073AE96|701992
+costura.siticone.desktop.ui.dll.compressed|2.0.9.0|Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db|Siticone.Desktop.UI.dll|3EA3810AF76B1FB0E03181EF56435734ED773C9F|2497984
+costura.system.buffers.dll.compressed|4.0.3.0|System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Buffers.dll|2F410A0396BC148ED533AD49B6415FB58DD4D641|20856
+costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760
+costura.system.diagnostics.eventlog.dll.compressed|6.0.0.0|System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.EventLog.dll|B5F3B8153DEB32F540C785C030F190DAF7C0F3F3|31848
+costura.system.memory.dll.compressed|4.0.1.1|System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Memory.dll|19BF79600B716523B5317B9A7B68760AE5D55741|141184
+costura.system.net.http.formatting.dll.compressed|5.2.9.0|System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35|System.Net.Http.Formatting.dll|B92C69941C66D5526FF151E523EB92A8A90FC06A|179680
+costura.system.numerics.vectors.dll.compressed|4.1.4.0|System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Numerics.Vectors.dll|3D216458740AD5CB05BC5F7C3491CDE44A1E5DF0|115856
+costura.system.runtime.compilerservices.unsafe.dll.compressed|6.0.0.0|System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Runtime.CompilerServices.Unsafe.dll|180A7BAAFBC820A838BBACA434032D9D33CCEEBE|18024
+costura.system.security.principal.windows.dll.compressed|5.0.0.0|System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Security.Principal.Windows.dll|9A5BE1FCF410FE5934D720329D36A2377E83747E|18312
+costura.system.serviceprocess.servicecontroller.dll.compressed|6.0.0.0|System.ServiceProcess.ServiceController, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.ServiceProcess.ServiceController.dll|A027BE116049B789BF6451C03FA6A53B7C8C3BAD|19584
+costura.system.text.encodings.web.dll.compressed|6.0.0.0|System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Text.Encodings.Web.dll|1B75BC14DAA093502C7C5814852928E28AB6659A|76904
+costura.system.text.json.dll.compressed|6.0.0.5|System.Text.Json, Version=6.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Text.Json.dll|5D9F62CAA376C39325091B890E76CF173DC10D24|514192
+costura.system.threading.tasks.extensions.dll.compressed|4.2.0.1|System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Threading.Tasks.Extensions.dll|2242627282F9E07E37B274EA36FAC2D3CD9C9110|25984
+costura.system.valuetuple.dll.compressed|4.0.3.0|System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.ValueTuple.dll|D1664731719E85AAD7A2273685D77FEB0204EC98|25232

@@ -1,0 +1,5 @@
+C:\Users\MONSTERMC\Downloads\Fully_Unpacked\Fully_Unpacked\Fully Unpacked\SRC\RBG VIP BYPASS\obj\x64\Debug\RBG VIP BYPASS.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Downloads\Fully_Unpacked\Fully_Unpacked\Fully Unpacked\SRC\RBG VIP BYPASS\obj\x64\Debug\BYPASS.Bypass.resources
+C:\Users\MONSTERMC\Downloads\Fully_Unpacked\Fully_Unpacked\Fully Unpacked\SRC\RBG VIP BYPASS\obj\x64\Debug\BYPASS.Login.resources
+C:\Users\MONSTERMC\Downloads\Fully_Unpacked\Fully_Unpacked\Fully Unpacked\SRC\RBG VIP BYPASS\obj\x64\Debug\RBG VIP BYPASS.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Downloads\Fully_Unpacked\Fully_Unpacked\Fully Unpacked\SRC\RBG VIP BYPASS\obj\x64\Debug\RBG VIP BYPASS.csproj.CoreCompileInputs.cache
